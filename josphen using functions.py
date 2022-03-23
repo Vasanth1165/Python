@@ -1,0 +1,10 @@
+n=int(input())
+m=n
+sum=0
+while(n>1):
+	n=n//2
+	sum+=1
+x=2**sum
+d=m-x
+j=2*d+1
+print(j)
