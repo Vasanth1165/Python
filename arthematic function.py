@@ -1,0 +1,10 @@
+def arthematic(a,b):
+	print(a+b)
+	print(a-b)
+	print(a*b)
+	print(a/b)
+	print(a//b)
+	print(a%b)
+	print(a**b)
+a,b=map(int,input().split())
+arthematic(a,b)
