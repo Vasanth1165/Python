@@ -1,0 +1,19 @@
+from math import sqrt
+n=int(input())
+l=[1 for i in range(n+1)]
+l[0]=l[1]=0
+i=2
+while (i<=int(sqrt(n))):
+    if l[i]==1:
+        for j in range(i*i,n+1,i):
+            l[j]=0
+    i+=1
+z=l.count(1)
+li=[]
+for i in range(len(l)):
+    if l[i]==1:
+        li.append(i)
+    else:
+        pass
+print(li)
+print(z)
