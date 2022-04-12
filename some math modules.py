@@ -1,0 +1,10 @@
+from math import *
+print(ceil(4.4))
+print(floor(4.4))
+print(sqrt(4))
+print(isqrt(4))
+print(pow(2,3))
+print(comb(4,2))
+print(perm(4,2))
+print(gcd(12,18))
+print(factorial(5))
