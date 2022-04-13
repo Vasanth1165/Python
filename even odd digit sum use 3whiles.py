@@ -1,0 +1,24 @@
+n=int(input())
+e=0
+o=0
+while(n):
+	r=n%10
+	n=n//10
+	if(r%2==0):
+		e=e*10+r
+	else:
+		o=o*10+r	
+erev=0
+orev=0
+while(e):
+	r=e%10
+	e=e//10
+	erev=erev*10+r
+print(erev)
+print(erev**2)
+while(o):
+	r=o%10
+	o=o//10
+	orev=orev*10+r
+print(orev)
+print(orev**2)
